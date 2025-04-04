@@ -1,0 +1,14 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\Module.OWLMRQPipeline.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWLMRQPipelineModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraBlenderBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraDomeBlender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraEquirectangularBlender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraMono180Blender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraMoviePipelinePass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraResizeCubemapBlender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWL360CameraStereoVR180Blender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLMRQPipeline\\OWLIntermediateIndex.cpp.obj"
+	]
+}

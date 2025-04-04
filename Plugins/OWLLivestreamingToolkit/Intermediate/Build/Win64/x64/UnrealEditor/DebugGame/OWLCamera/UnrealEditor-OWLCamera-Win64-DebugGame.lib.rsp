@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OWLCamera-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\toolkit-tmp\Intermediate\Build\Win64\x64\BuildTempEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\Module.OWLCamera.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\OWLCameraModule.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\OWLCaptureComponent.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\OWLCineCamCapture.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\OWLViewportCapture.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\Default.rc2.res"
+/OUT:"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLCamera\UnrealEditor-OWLCamera-Win64-DebugGame.lib"

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OWLVirtualWebcam-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\toolkit-tmp\Intermediate\Build\Win64\x64\BuildTempEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLVirtualWebcam\Module.OWLVirtualWebcam.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLVirtualWebcam\OWLVirtualWebcamModule.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLVirtualWebcam\OWLVirtualWebcamOutput.cpp.obj"
+"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLVirtualWebcam\Default.rc2.res"
+/OUT:"C:\toolkit-tmp\Plugins\OWLLivestreamingToolkit\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\OWLVirtualWebcam\UnrealEditor-OWLVirtualWebcam-Win64-DebugGame.lib"

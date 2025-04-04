@@ -1,0 +1,14 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\Module.OWLMRQPipeline.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWLMRQPipelineModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraBlenderBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraDomeBlender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraEquirectangularBlender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraMono180Blender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraMoviePipelinePass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraResizeCubemapBlender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWL360CameraStereoVR180Blender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLMRQPipeline\\OWLIntermediateIndex.cpp.obj"
+	]
+}

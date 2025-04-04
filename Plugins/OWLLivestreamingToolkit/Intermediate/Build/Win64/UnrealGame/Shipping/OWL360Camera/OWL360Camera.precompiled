@@ -1,0 +1,11 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\Module.OWL360Camera.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\Module.OWL360Camera.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\OWL360CamCapture.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\OWL360CameraModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\OWL360CaptureComponent.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\OWL360PostProcessSettings.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWL360Camera\\PostProcessHelpers.cpp.obj"
+	]
+}

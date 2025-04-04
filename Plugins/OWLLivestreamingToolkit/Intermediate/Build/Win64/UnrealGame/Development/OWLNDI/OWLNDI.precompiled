@@ -1,0 +1,13 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\Module.OWLNDI.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\NDIModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDIFinder.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDIReceiver.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDIReceiverManager.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDISender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDISenderController.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDISenderManager.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\OWLNDI\\OWLNDISoundWave.cpp.obj"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\Module.LivestreamingToolkitShaders.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\LivestreamingToolkitShaders.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\OWLMediaUtils.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\BloomDownsampleArrayResource.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\BloomShaderDeclaration.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\Cube2EquiShaderDeclaration.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\CubeMapOutputDeclaration.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\DomeShaderDeclaration.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\MirrorDomeShaderDeclaration.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkitShaders\\StereoRenderingShaderDeclaration.cpp.obj"
+	]
+}

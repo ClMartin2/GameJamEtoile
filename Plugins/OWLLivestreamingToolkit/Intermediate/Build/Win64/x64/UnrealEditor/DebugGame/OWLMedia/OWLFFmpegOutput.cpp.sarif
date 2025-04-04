@@ -1,0 +1,982 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 46
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 29
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 60
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 72
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 64,
+                                    "startColumn": 13
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoderInputFrame': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 73,
+                                    "startColumn": 74
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FCodecPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 73,
+                                    "startColumn": 123
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FCodecPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 73,
+                                    "startColumn": 106
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoderInputFrame': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 74,
+                                    "startColumn": 24
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoder::FLayerConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 77,
+                                    "startColumn": 28
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 83,
+                                    "startColumn": 13
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 84,
+                                    "startColumn": 24
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoderInput': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 85,
+                                    "startColumn": 24
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoderInputFrame': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 98,
+                                    "startColumn": 29
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoConfig::FVideoConfig': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLVideoEncoder.h"
+                                },
+                                "region": {
+                                    "startLine": 64,
+                                    "startColumn": 51
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLFFmpegOutput.h"
+                                },
+                                "region": {
+                                    "startLine": 294,
+                                    "startColumn": 38
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLFFmpegOutput.h"
+                                },
+                                "region": {
+                                    "startLine": 294,
+                                    "startColumn": 21
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLFFmpegOutput.h"
+                                },
+                                "region": {
+                                    "startLine": 295,
+                                    "startColumn": 39
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLFFmpegOutput.h"
+                                },
+                                "region": {
+                                    "startLine": 295,
+                                    "startColumn": 22
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLFFmpegOutput.h"
+                                },
+                                "region": {
+                                    "startLine": 346,
+                                    "startColumn": 42
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Public/OWLFFmpegOutput.h"
+                                },
+                                "region": {
+                                    "startLine": 346,
+                                    "startColumn": 25
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 590,
+                                    "startColumn": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FVideoEncoder': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 593,
+                                    "startColumn": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 615,
+                                    "startColumn": 55
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 615,
+                                    "startColumn": 38
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::IsVideoKeyFrame': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 617,
+                                    "startColumn": 48
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 624,
+                                    "startColumn": 56
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 624,
+                                    "startColumn": 39
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 628,
+                                    "startColumn": 27
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 630,
+                                    "startColumn": 13
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 631,
+                                    "startColumn": 13
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 632,
+                                    "startColumn": 13
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 633,
+                                    "startColumn": 13
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 653,
+                                    "startColumn": 59
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1649,
+                                    "startColumn": 59
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1649,
+                                    "startColumn": 42
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Timestamp': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1655,
+                                    "startColumn": 28
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Type': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1673,
+                                    "startColumn": 11
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::EPacketType': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1673,
+                                    "startColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::EPacketType': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1673,
+                                    "startColumn": 44
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/AVEncoder/Public/MediaPacket.h"
+                                },
+                                "region": {
+                                    "startLine": 25,
+                                    "startColumn": 113
+                                }
+                            },
+                            "message": {
+                                "text": "see declaration of 'AVEncoder::EPacketType'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1679,
+                                    "startColumn": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::Data': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1681,
+                                    "startColumn": 35
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'AVEncoder::FMediaPacket::IsVideoKeyFrame': AVEncoder has been deprecated. Please use the AVCodecs plugin family instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLMedia/Private/OWLFFmpegOutput.cpp"
+                                },
+                                "region": {
+                                    "startLine": 1689,
+                                    "startColumn": 11
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

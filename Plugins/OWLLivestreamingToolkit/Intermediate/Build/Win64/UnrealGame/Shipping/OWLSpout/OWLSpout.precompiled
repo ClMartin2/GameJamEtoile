@@ -1,0 +1,11 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\Module.OWLSpout.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\OWLSpoutReceiver.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\OWLSpoutReceiverManager.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\OWLSpoutSender.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\OWLSpoutSenderController.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\OWLSpoutSenderManager.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLSpout\\SpoutModule.cpp.obj"
+	]
+}

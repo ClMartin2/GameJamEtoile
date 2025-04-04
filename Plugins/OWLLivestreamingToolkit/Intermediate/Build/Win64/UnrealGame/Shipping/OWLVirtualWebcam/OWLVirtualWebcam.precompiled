@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLVirtualWebcam\\Module.OWLVirtualWebcam.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLVirtualWebcam\\OWLVirtualWebcamModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLVirtualWebcam\\OWLVirtualWebcamOutput.cpp.obj"
+	]
+}

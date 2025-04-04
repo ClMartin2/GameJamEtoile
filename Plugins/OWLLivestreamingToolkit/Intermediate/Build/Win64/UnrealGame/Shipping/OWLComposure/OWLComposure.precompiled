@@ -1,0 +1,18 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\Module.OWLComposure.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLBaseComp.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLCGCaptureComponent.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLCGElement.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLCGMatte.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLComposure.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLNDIInputPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLNDIOutputPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLPlaneTransformPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLScreenCaptureInputPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLSpoutInputPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLSpoutOutputPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLUIInputPass.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\OWLComposure\\OWLVideoPlanePlacement.cpp.obj"
+	]
+}

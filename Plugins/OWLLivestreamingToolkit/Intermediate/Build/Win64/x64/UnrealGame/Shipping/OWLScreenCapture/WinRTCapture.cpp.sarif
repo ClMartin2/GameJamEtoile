@@ -1,0 +1,166 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4265",
+                    "message": {
+                        "text": "'winrt::impl::implements_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,H>': class has virtual functions, but its non-trivial destructor is not virtual; instances of this class may not be destructed correctly\n        with\n        [\n            H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>\n        ]"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLScreenCapture/Private/WinRTCapture.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt/winrt/base.h"
+                                },
+                                "region": {
+                                    "startLine": 5277,
+                                    "startColumn": 1
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt/winrt/base.h"
+                                },
+                                "region": {
+                                    "startLine": 5277,
+                                    "startColumn": 1
+                                }
+                            },
+                            "message": {
+                                "text": "the template instantiation context (the oldest one first) is"
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLScreenCapture/Private/WinRTCapture.cpp"
+                                },
+                                "region": {
+                                    "startLine": 62,
+                                    "startColumn": 25
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to function template instantiation 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler<WinRTCapture,void(__cdecl WinRTCapture::* )(const winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool &,const winrt::Windows::Foundation::IInspectable &)>(O *,M)' being compiled\n        with\n        [\n            O=WinRTCapture,\n            M=void (__cdecl WinRTCapture::* )(const winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool &,const winrt::Windows::Foundation::IInspectable &)\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/toolkit-tmp/Plugins/OWLLivestreamingToolkit/Source/OWLScreenCapture/Private/WinRTCapture.cpp"
+                                },
+                                "region": {
+                                    "startLine": 62,
+                                    "startColumn": 24
+                                }
+                            },
+                            "message": {
+                                "text": "see the first reference to 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler' in 'WinRTCapture::WinRTCapture'"
+                            },
+                            "properties": {
+                                "nestingLevel": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt/winrt/windows.foundation.h"
+                                },
+                                "region": {
+                                    "startLine": 2515,
+                                    "startColumn": 88
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to function template instantiation 'winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>>(L)' being compiled\n        with\n        [\n            L=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt/winrt/windows.foundation.h"
+                                },
+                                "region": {
+                                    "startLine": 2507,
+                                    "startColumn": 33
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to function template instantiation 'T winrt::impl::make_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,_Ty>(H &&)' being compiled\n        with\n        [\n            T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,\n            _Ty=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>,\n            H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt/winrt/base.h"
+                                },
+                                "region": {
+                                    "startLine": 5282,
+                                    "startColumn": 64
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to class template instantiation 'winrt::impl::delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,_Ty>' being compiled\n        with\n        [\n            _Ty=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt/winrt/windows.foundation.h"
+                                },
+                                "region": {
+                                    "startLine": 891,
+                                    "startColumn": 155
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to class template instantiation 'winrt::impl::implements_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,H>' being compiled\n        with\n        [\n            H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::{ctor}::<lambda_13_>\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

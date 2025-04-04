@@ -1,0 +1,24 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\Module.LivestreamingToolkit.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\LivestreamingToolkitModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLBlueprintFunctionLibrary.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLSettings.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\ViewportSettings.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\NDIInstallerLaunch.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLSaveGame.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\AuthCoordinator.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\AuthDelegates.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\AuthLoader.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\AuthSharedSettings.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\MeteredMinsStore.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\MeteredUsageWorker.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\PluginUpdate.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLTelemetry.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\ImageArray.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLHelpers.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLImageInput.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLWatermarkWriter.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\LivestreamingToolkit\\OWLWindowsPlatformMisc.cpp.obj"
+	]
+}
