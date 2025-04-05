@@ -47,7 +47,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
 
 # Builds
 Build/*
@@ -75,3 +74,4 @@ DerivedDataCache/*
 DOMEMASTER_TOOL.uproject
 .idea
 DOMEMASTER_TOOL.sln.DotSettings.user
+.idea
