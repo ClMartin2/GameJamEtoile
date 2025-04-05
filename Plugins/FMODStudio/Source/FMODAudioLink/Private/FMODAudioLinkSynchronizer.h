@@ -54,5 +54,5 @@ struct FFMODAudioLinkSynchronizer : IAudioLinkSynchronizer, TSharedFromThis<FFMO
 
     #undef MAKE_DELEGATE_FUNC
 
-    friend FMOD_RESULT F_CALL MixCallback(FMOD_SYSTEM* system, FMOD_SYSTEM_CALLBACK_TYPE type, void* commanddata1, void* commanddata2, void* userdata);
+    friend FMOD_RESULT F_CALLBACK MixCallback(FMOD_SYSTEM* system, FMOD_SYSTEM_CALLBACK_TYPE type, void* commanddata1, void* commanddata2, void* userdata);
 };

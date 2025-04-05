@@ -7,7 +7,7 @@
 
 #include "AudioDeviceManager.h"
 
-FMOD_RESULT F_CALL MixCallback(FMOD_SYSTEM* system, FMOD_SYSTEM_CALLBACK_TYPE type, void* commanddata1, void* commanddata2, void* userdata)
+FMOD_RESULT F_CALLBACK MixCallback(FMOD_SYSTEM* system, FMOD_SYSTEM_CALLBACK_TYPE type, void* commanddata1, void* commanddata2, void* userdata)
 {
     FFMODAudioLinkSynchronizer *Synchro = static_cast<FFMODAudioLinkSynchronizer*>(userdata);
     if (Synchro)

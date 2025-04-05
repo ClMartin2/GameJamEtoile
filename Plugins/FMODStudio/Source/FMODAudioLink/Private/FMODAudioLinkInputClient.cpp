@@ -98,7 +98,7 @@ FFMODAudioLinkInputClient::~FFMODAudioLinkInputClient()
     Unregister();
 }
 
-FMOD_RESULT F_CALL pcmreadcallback(FMOD_SOUND* inSound, void* data, unsigned int datalen)
+FMOD_RESULT F_CALLBACK pcmreadcallback(FMOD_SOUND* inSound, void* data, unsigned int datalen)
 {
     FMOD::Sound* sound = (FMOD::Sound*)inSound;
     FFMODAudioLinkInputClient* ConsumerSP;
@@ -109,7 +109,7 @@ FMOD_RESULT F_CALL pcmreadcallback(FMOD_SOUND* inSound, void* data, unsigned int
     return FMOD_OK;
 }
 
-FMOD_RESULT F_CALL SoundCallback(FMOD_STUDIO_EVENT_CALLBACK_TYPE type, FMOD_STUDIO_EVENTINSTANCE* event, void* parameters)
+FMOD_RESULT F_CALLBACK SoundCallback(FMOD_STUDIO_EVENT_CALLBACK_TYPE type, FMOD_STUDIO_EVENTINSTANCE* event, void* parameters)
 {
     FMOD_RESULT result = FMOD_OK;
     FMOD::Studio::EventInstance* eventInstance = (FMOD::Studio::EventInstance*)event;
