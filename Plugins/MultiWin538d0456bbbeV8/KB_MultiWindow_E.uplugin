@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "3.2",
+	"FriendlyName": "Multi Window Extension",
+	"Description": "Allows you to create multiple game windows. Create VR spectator tools, a second game renderer, and many more amazing things!",
+	"Category": "Blueprint Library Extension",
+	"CreatedBy": "Kibibyte",
+	"CreatedByURL": "https://www.youtube.com/@kibibytecompany",
+	"DocsURL": "https://kibibytecompany.notion.site/Multi-Window-Extension-Documentation-4a584b1e0bac485db492ecafc4d19d0a?pvs=4",
+	"MarketplaceURL": "",
+	"SupportURL": "https://kibibytecompany.notion.site/Support-33f15d7b1ffa4110a9109caea3198777",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "KB_MultiWindow_E",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
