@@ -34,7 +34,7 @@
 #define WITH_OCIO 1
 #define OPENCOLORIOWRAPPER_API DLLIMPORT
 #define OWL_AUTH_URL "https://plugin-api.offworld.live"
-#define RELEASE_DATE 2025-04-05T09:20:18.639Z
+#define RELEASE_DATE 2025-04-05T12:39:51.268Z
 #define OFFWORLDLIVE_DEBUG 0
 #define DEBUG_APP_LICENCE 0
 #define AUTH_APP_NAME owl-licensing-utility.exe
